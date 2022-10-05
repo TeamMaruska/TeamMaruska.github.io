@@ -25,17 +25,6 @@ body {
     align-content: flex-start;
     padding-bottom: 200px;
 }
-@media screen and (max-width: 1000px) and (min-width: 600px) {
-    body {
-        font-size: 0.9rem;
-    }
-}
-
-@media only screen and (max-width: 600px)  {
-    body {
-        font-size: 0.8rem;
-    }
-}
 h1 {
     margin: 10px 0 30px 0;
     font-weight: 900;
@@ -120,6 +109,10 @@ a:hover {
     text-align: center;
     padding: 20px;
 }
+#team-members article .img {
+    text-align: left;
+    text-align: center;
+}
 #team-members article .name {
     font-weight: 900;
     font-size: 1.2em;
@@ -137,7 +130,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     #team-members {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -150,12 +143,17 @@ a:hover {
         grid-template-columns: 1fr 1fr;
     }
 }
+@media screen and (max-width: 1100px){
+    body {
+        font-size: 0.9rem;
+    }
+}
 @media screen and (max-width: 1000px) {
     #documents ul {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     body {
         display: block;
     }
@@ -164,6 +162,16 @@ a:hover {
     }
     #about {
         padding-top: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    #team-members {
+        grid-template-columns: 1fr;
+    }
+    body {
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width: 500px) {
