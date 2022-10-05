@@ -90,16 +90,13 @@ a:hover {
     text-decoration: underline;
     transform: translateX(10px);
 }
-#about {
+main > section {
     padding-top: 120px;
 }
 #about img {
     width: 100%;
     margin-bottom: 40px;
     max-height: 100vh;
-}
-#project {
-    padding-top: 120px;
 }
 #team img {
     width: 100%;
@@ -118,15 +115,11 @@ a:hover {
     text-align: center;
 }
 #team-members article .name {
-    font-weight: 700;
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin-top: 15px;
 }
 #team-members article .roles {
-    font-size: 0.6em;
-}
-#documents {
-    padding-top: 120px;
+    font-size: 0.8em;
 }
 #documents ul {
     max-width: 900px;
@@ -138,7 +131,6 @@ a:hover {
     font-style: italic;
 }
 #contact {
-    padding-top: 120px;
     padding-bottom: 200px;
 }
 
