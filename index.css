@@ -23,6 +23,7 @@ body {
     display: grid;
     grid-template-columns: 250px auto;
     align-content: flex-start;
+    padding-bottom: 200px;
 }
 @media screen and (max-width: 1000px) and (min-width: 600px) {
     body {
@@ -62,6 +63,7 @@ p {
 }
 main {
     padding: 0 40px 20px 100px;
+    height: 100%;
 }
 nav {
     padding: 200px 0 0 50px;
@@ -80,7 +82,7 @@ li {
     margin-bottom: 5px;
 }
 section {
-    margin-bottom: 180px;
+    margin-bottom: 60px;
 }
 a {
     display: inline-block;
@@ -98,10 +100,13 @@ a:hover {
 #about {
     padding-top: 120px;
 }
-#documents ul {
-    max-width: 900px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+#about img {
+    width: 100%;
+    margin-bottom: 40px;
+    max-height: 100vh;
+}
+#project {
+    padding-top: 120px;
 }
 #team img {
     width: 100%;
@@ -123,19 +128,31 @@ a:hover {
 #team-members article .roles {
     font-size: 0.6em;
 }
+#documents {
+    padding-top: 120px;
+}
+#documents ul {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 @media screen and (max-width: 1400px) {
     #team-members {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
 @media screen and (max-width: 1200px) {
     main {
         padding-left: 40px;
     }
     #team-members {
         grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #documents ul {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media screen and (max-width: 800px) {
@@ -147,5 +164,10 @@ a:hover {
     }
     #about {
         padding-top: 80px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #documents ul {
+        grid-template-columns: 1fr 1fr;
     }
 }
