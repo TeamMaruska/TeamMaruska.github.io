@@ -2,7 +2,7 @@
 :root {
     --main-background-color: rgb(19, 19, 19);
     --main-color: rgb(241, 241, 241);
-    --second-color: rgb(213, 213, 213);
+    --second-color: rgb(193, 193, 193);
     --highlight-color: rgb(241, 209, 255);
     --main-font-size: 22px;
 }
@@ -15,15 +15,15 @@ html {
     background: var(--main-background-color);
     color: var(--main-color);
     font-size: var(--main-font-size);
-    font-family: 'Consolas', 'Noto Sans Mono', monospace;
+    font-family: 'Noto Sans Mono', 'Consolas', monospace;
     line-height: 1.5;
 }
 body {
     font-size: 1rem;
+    font-weight: 300;
     display: grid;
     grid-template-columns: 250px auto;
     align-content: flex-start;
-    padding-bottom: 200px;
 }
 h1 {
     margin: 10px 0 30px 0;
@@ -36,7 +36,7 @@ h2 {
     font-size: 1.8em;
 }
 h3 {
-    margin: 10px 0;
+    margin: 10px 0 15px 0;
     font-weight: 700;
     font-size: 1.2em;
 }   
@@ -60,8 +60,8 @@ nav {
 
 }
 nav ul {
-    position: sticky;
-    top: 100px;
+    position: fixed;
+    top: 220px;
 }
 ul {
     list-style: none;
@@ -80,6 +80,9 @@ a {
     cursor: pointer;
     text-decoration: none;
     transition: all 300ms;
+}
+b {
+    font-weight: 700;
 }
 a:hover {
     color: var(--highlight-color);
@@ -107,14 +110,14 @@ a:hover {
 }
 #team-members article {
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
 }
 #team-members article .img {
     text-align: left;
     text-align: center;
 }
 #team-members article .name {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.2em;
     margin-top: 15px;
 }
@@ -128,6 +131,14 @@ a:hover {
     max-width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#documents a {
+    font-weight: 400;
+    font-style: italic;
+}
+#contact {
+    padding-top: 120px;
+    padding-bottom: 200px;
 }
 
 @media screen and (max-width: 1450px) {
