@@ -3,7 +3,7 @@ window.onload = () => {
   let text = 'Tím Maruška';
   write(title, text, 0, 100);
 
-  let teamMembers = ['oliver', 'matus', 'katka', 'anett', 'lea', 'andrii', 'michal'];
+  let teamMembers = ['lukas','oliver', 'matus', 'katka', 'anett', 'lea', 'andrii', 'michal'];
   teamMembers.forEach(name => {
     fetch(`/ascii_obrazky/${name}.txt`).then(res => res.text()).then(data => {
       document.querySelector(`#img-${name}`).innerHTML = data;
