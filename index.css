@@ -1,0 +1,12 @@
+.whole-page {
+    max-width: 720px;
+}
+.nav-width {
+    max-width: 960px;
+}
+
+.backRound {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
