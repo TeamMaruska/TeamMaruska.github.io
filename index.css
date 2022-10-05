@@ -3,7 +3,8 @@
     --main-background-color: rgb(19, 19, 19);
     --main-color: rgb(241, 241, 241);
     --second-color: rgb(193, 193, 193);
-    --highlight-color: rgb(241, 209, 255);
+    /*--highlight-color: rgb(241, 209, 255);*/
+    --highlight-color: #41FF00;
     --main-font-size: 22px;
 }
 * {
