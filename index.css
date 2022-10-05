@@ -22,7 +22,7 @@ body {
     font-size: 1rem;
     display: grid;
     grid-template-columns: 250px auto;
-    padding-top: 100px;
+    align-content: flex-start;
 }
 @media screen and (max-width: 1000px) and (min-width: 600px) {
     body {
@@ -45,17 +45,26 @@ h2 {
     font-weight: 800;
     font-size: 1.8em;
 }
+h3 {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 1.2em;
+}   
+h4 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 1.1em;
+}
 p {
     max-width: 900px;
     margin-bottom: 10px;
     color: var(--second-color);
 }
 main {
-    min-height: 100vh;
-    padding: 20px 20px 20px 100px;
+    padding: 0 40px 20px 100px;
 }
 nav {
-    padding: 100px 0 0 50px;
+    padding: 200px 0 0 50px;
     color: var(--main-color);
 
 }
@@ -71,7 +80,7 @@ li {
     margin-bottom: 5px;
 }
 section {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 a {
     display: inline-block;
@@ -86,6 +95,57 @@ a:hover {
     text-decoration: underline;
     transform: translateX(10px);
 }
-#banner {
-    min-height: 50vh;
+#about {
+    padding-top: 120px;
+}
+#documents ul {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#team img {
+    width: 100%;
+    max-width: 250px;
+}
+#team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#team-members article {
+    text-align: center;
+    padding: 20px;
+}
+#team-members article .name {
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+#team-members article .roles {
+    font-size: 0.6em;
+}
+
+@media screen and (max-width: 1400px) {
+    #team-members {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        padding-left: 40px;
+    }
+    #team-members {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    #about {
+        padding-top: 80px;
+    }
 }
