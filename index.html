@@ -12,7 +12,10 @@
 					<span>*</span><a href="#about">kto_sme</a>
 				</li>
 				<li>
-					<span>*</span><a href="#project">náš_projekt</a>
+					<a href="#team">*členovia_tímu</a>
+				</li>
+				<li>
+					<a href="#project">*náš_projekt</a>
 				</li>
 				<li>
 					<span>*</span><a href="#documents">dokumenty</a>
@@ -25,64 +28,110 @@
 		<main>
 			<section id="about">
 				<h1 id="title">> _</h1>
-				<!--<img src="images/team.png">-->
 				<p>
-					Sme skupinka 7 kamarátov, ktorí ukončili bakalárske štúdium na FIIT-ke a rozhodli sa pokračovať aj na to inžinierske a vytvorili spoločný tím.
+					<b>#define</b> TEAM_12 'Maruška'
+				</p>
+				<img src="unknown.jpg" style="max-width: 1200px; height: 400px;" alt="nas tim">
+				<p>
+					function <b>introduction</b>() {
+				</p>
+				<p style="margin-left: 40px;">
+					/*<br/>
+					Sme skupinka <b>7 kamarátov</b>, ktorí ukončili bakalárske štúdium na FIIT-ke a rozhodli sa pokračovať aj na to inžinierske a vytvorili spoločný tím.
+					<br/>*/ 
+				</p>
+				<p style="margin-left: 40px;">
+					/*<br/>
+					Medzi naše najväčšie kvality patrí <b>tvorba webov</b>, no venujeme sa aj <b>databázam</b>, <b>strojovému učeniu</b>, metódam <b>používateľského zážitku</b> či <b>bezpečnosti</b>. Viacero z nás má <b>skúsenosti s výučbou</b>, či už tu na fakulte alebo na stredej škole, práve preto sme zameraní na projekty so vzdelávacou funkciou.
+					<br/>*/ 
+				</p>
+				<p style="margin-left: 40px;">
+					/*<br/>
+					Sme tím číslo 12, a rovnako ako 12 mesiačikovia kryli Maruške chrbát, my si budeme ich budeme kryť a pomáhať si počas celej našej spolupráce. 
+					<br/>*/ 
+				</p>
+				<p style="margin-left: 40px;">
+					<b>return</b> cooperative_team;
 				</p>
 				<p>
-					Medzi naše najväčšie kvality patrí <b>tvorba webov</b>, no venujeme sa aj <b>databázam</b>, <b>strojovému učeniu</b>, metódam <b>používateľského zážitku</b> či <b>bezpečnosti</b>. Viacero z nás má skúsenosti s výučbou, či už tu na fakulte alebo na stredej škole, práve preto sme zameraní na projekty so vzdelávacou funkciou.
+					}
 				</p>
-				
 			</section>
 			<section id="team">
-				<h3>#include &lt;team.h&gt;</h3>
+				<h1>#include &lt;team.h&gt;</h1>
+				<p>
+					struct team_member {<br/>
+					<span style="margin-left: 40px;">
+						char* name;<br/>
+					</span>
+					<span style="margin-left: 40px;">
+						char** roles;<br/>
+					</span>
+					};
+				</p>
 				<section id="team-members">
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-lukas"></div>
-						<div class="name">Lukáš Kohútka</div>
-						<div class="roles">vedúci tímu</div>
+						<div class="name">tp_1.name = '<b>Lukáš Kohútka</b>';</div>
+						<div class="roles">tp_1.roles = ['vedúci tímu'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-lea"></div>
-						<div class="name">Lea Hianiková</div>
-						<div class="roles">front-end</div>
+						<div class="name">tp_2.name = '<b>Lea Hianiková</b>';</div>
+						<div class="roles">tp_2.roles = ['front-end'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-andrii"></div>
-						<div class="name">Andrii Holubov</div>
-						<div class="roles">back-end</div>
+						<div class="name">tp_3.name = '<b>Andrii Holubov</b>';</div>
+						<div class="roles">tp_3.roles = ['back-end'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-katka"></div>
-						<div class="name">Katka Hutirová</div>
-						<div class="roles">front-end</div>
+						<div class="name">tp_4.name = '<b>Katka Hutirová</b>';</div>
+						<div class="roles">tp_4.roles = ['front-end'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-matus"></div>
-						<div class="name">Matúš Krajčovič</div>
-						<div class="roles">front-end, UX</div>
+						<div class="name">tp_5.name = '<b>Matúš Krajčovič</b>';</div>
+						<div class="roles">tp_5.roles = ['front-end', 'UX'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-michal"></div>
-						<div class="name">Michal Kuklovský</div>
-						<div class="roles">back-end, expert na bezpečnosť</div>
+						<div class="name">tp_6.name = '<b>Michal Kuklovský</b>';</div>
+						<div class="roles">tp_6.roles = ['back-end, 'bezpečnosť'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-anett"></div>
-						<div class="name">Anetta Langová</div>
-						<div class="roles">back-end</div>
+						<div class="name">tp_7.name = '<b>Anetta Langová</b>';</div>
+						<div class="roles">tp_7.roles = ['back-end'];</div>
 					</article>
 					<article>
 						<div style="font-size: 2px; line-height: 1.4; font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; white-space: pre;" class="img" id="img-oliver"></div>
-						<div class="name">Oliver Leontiev</div>
-						<div class="roles">back-end</div>
+						<div class="name">tp_8.name = '<b>Oliver Leontiev</b>';</div>
+						<div class="roles">tp_8.roles = ['back-end'];</div>
 					</article>
 				</section>
 			</section>
 			<section id="project">
-				<h2>Turing - webový nástroj na výučbu jazyka C</h2>
+				<h2>> Turing.exe</h2>
 				<p>
-					Téma nás zaujala, pretože spája dve silné stránky nášho tímu: weby a edukácia. Na Turing máme z predmetov PrPr a DSA dobré spomienky a radi by sme sa podieľali na jeho znovuzavedení do výučby. Nástroj, ktorý by “gamifikoval” zadania a zároveň poskytoval okamžitú spätnú väzbu o správnosti ich riešenia vnímame ako nápomocný nielen pre motiváciu ale aj ako ukážku okrajových prípadov pre testovanie. Rozumieme aj špecifickým potrebám, ktoré vychádzajú z náporového využívania webu a na ich riešenie vieme využiť základy load balancingu z predmetu VPWA a WAC. Na základe individuálnych skúseností s tvorbou webových aplikácií na bakalárskych prácach a skupinových skúseností s rôznymi technológiami pri riešení zadaní dokážeme navrhnúť vhodné efektívne technológie a architektúru, pomocou ktorých bude webová aplikácia vyvíjaná.
+					function <b>project</b>() {
+				</p>
+				<p style="margin-left: 40px;">
+					/*<br/>
+					Cieľom nášho tímového projektu je vytvoriť webovú aplikáciu na <b>programovanie a testovanie zadaní</b> v jazyku C na predmetoch ako PRPR či DSA s názvom <b>Turing</b>. Nástroj umožní prípravu, zverejňovanie, vypracovanie (programovanie) a testovanie (automatické vyhodnotenie) programátorských zadaní.
+					<br/>*/ 
+				</p>
+				<p style="margin-left: 40px;">
+					/*<br/>
+					Na pôvodný Turing máme dobré spomienky a sme veľmi radi, že sa môžeme podieľať na jeho znovuzavedení do výučby. Nástroj, ktorý poskytuje okamžitú spätnú väzbu o správnosti ich riešenia vnímame ako nápomocný nielen pre motiváciu ale aj ako ukážku okrajových prípadov pre testovanie.
+					<br/>*/ 
+				</p>
+				<p style="margin-left: 40px;">
+					<b>return</b> successful_project;
+				</p>
+				<p>
+					}
 				</p>
 			</section>
 			<section id="documents">
