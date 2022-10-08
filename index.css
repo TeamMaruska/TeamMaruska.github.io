@@ -95,7 +95,7 @@ main > section {
 }
 #about img {
     width: 100%;
-    margin-bottom: 40px;
+    margin: 60px 0;
     max-height: 100vh;
 }
 #team img {
@@ -104,7 +104,7 @@ main > section {
 }
 #team-members {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #team-members article {
     text-align: center;
