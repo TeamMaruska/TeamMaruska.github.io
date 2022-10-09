@@ -9,6 +9,9 @@ window.onload = () => {
       document.querySelector(`#img-${name}`).innerHTML = data;
     });
   });
+  fetch(`/ascii_obrazky/tim.txt`).then(res => res.text()).then(data => {
+    document.querySelector(`#img-tim`).innerHTML = data;
+  });
 }
 
 function write(element, text, index, speed) {

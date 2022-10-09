@@ -93,10 +93,12 @@ a:hover {
 main > section {
     padding-top: 120px;
 }
-#about img {
-    width: 100%;
-    margin: 60px 0;
-    max-height: 100vh;
+#about #img-tim {
+    font-size: 10px;
+    line-height: 1.4;
+    font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace; 
+    white-space: pre;
+    margin: 80px 0;
 }
 #team img {
     width: 100%;
@@ -181,5 +183,49 @@ main > section {
 @media screen and (max-width: 500px) {
     #documents ul {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+/*img*/
+@media screen and (max-width: 1520px) {
+    #about #img-tim {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 1420px) {
+    #about #img-tim {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #about #img-tim {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 1140px) {
+    #about #img-tim {
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    #about #img-tim {
+        font-size: 5px;
+    }
+}
+@media screen and (max-width: 640px) {
+    #about #img-tim {
+        font-size: 4px;
+    }
+}
+@media screen and (max-width: 540px) {
+    #about #img-tim {
+        font-size: 3px;
+    }
+}
+@media screen and (max-width: 420px) {
+    #about #img-tim {
+        font-size: 2px;
     }
 }
