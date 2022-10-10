@@ -3,7 +3,6 @@
     --main-background-color: rgb(19, 19, 19);
     --main-color: rgb(241, 241, 241);
     --second-color: rgb(193, 193, 193);
-    /*--highlight-color: rgb(241, 209, 255);*/
     --highlight-color: #41FF00;
     --main-font-size: 22px;
 }
@@ -54,7 +53,6 @@ p {
 }
 main {
     padding: 0 40px 20px 100px;
-    height: 100%;
 }
 nav {
     padding: 200px 0 0 50px;
@@ -162,7 +160,7 @@ footer p {
     }
 }
 @media screen and (max-width: 1100px){
-    body {
+    body, div.content {
         font-size: 0.9rem;
     }
 }
@@ -172,7 +170,7 @@ footer p {
     }
 }
 @media screen and (max-width: 900px) {
-    body {
+    div.content {
         display: block;
     }
     nav {
@@ -188,7 +186,7 @@ footer p {
     #team-members {
         grid-template-columns: 1fr;
     }
-    body {
+    body, div.content {
         font-size: 0.8rem;
     }
 }
