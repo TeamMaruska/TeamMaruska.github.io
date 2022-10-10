@@ -17,6 +17,7 @@ html {
     font-size: var(--main-font-size);
     font-family: 'Noto Sans Mono', 'Consolas', monospace;
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 div.content {
     font-size: 1rem;
