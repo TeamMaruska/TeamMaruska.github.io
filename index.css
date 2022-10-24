@@ -191,7 +191,7 @@ footer p {
         font-size: 0.8rem;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     #documents ul {
         grid-template-columns: 1fr 1fr;
     }
