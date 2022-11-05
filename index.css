@@ -127,7 +127,7 @@ main > section {
     font-size: 0.8em;
 }
 #documents ul {
-    max-width: 900px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -239,4 +239,8 @@ footer p {
     #about #img-tim {
         font-size: 2px;
     }
+}
+
+#documents ul.methods {
+    display: block;
 }
