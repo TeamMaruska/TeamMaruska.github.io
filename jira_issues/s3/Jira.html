@@ -1,0 +1,3527 @@
+<!DOCTYPE html>
+<!-- saved from url=(0273)https://maruska-tim12.atlassian.net/sr/jira.issueviews:searchrequest-fullcontent/temp/SearchRequest.html?jqlQuery=project+%3D+TUR+AND+Sprint+%3D+9+ORDER+BY+created+DESC&atl_token=8ec47532-d26b-42e6-abcf-4de80b8ea341_305e43270ba1fbc04faa4d2e4adc47141648f583_lin&tempMax=1000 -->
+<html class="webkit chrome"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Jira</title>
+    
+            
+        <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"\"";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-rest:curl.cross-origin-resources"]="false";
+WRM._unparsedData["jira.webresources:feature-flags.feature-flag-data"]="{\"enabled-feature-keys\":[\"com.atlassian.jira.projects.issuenavigator\",\"connect.no-applinks\",\"nps.survey.inline.dialog\",\"atlassian.aui.raphael.disabled\",\"com.atlassian.jira.projects.ProjectCentricNavigation.Switch\"],\"feature-flag-states\":{\"jira.feature.flag.board.issue.modal.labs\":true,\"com.atlassian.jira.plugins.mail.internal\":false,\"com.atlassian.jira.feature.flag.for.TestFeatureFlagResource\":false,\"jira.feature.rest.single.step.avatar.upload\":true,\"jira.ondemand.maintain.trusted.apps\":true}}";
+WRM._unparsedData["com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider.client-analytic-descriptors"]="{\"analyticsResource\":{\"jira-core\":{\"events\":{\"issue.comment.added\":{\"trigger\":\"click #issue-comment-add-submit\",\"properties\":{\"comment-length\":\"value.length #issue-comment-add #comment\"}}}}},\"tenantId\":\"cfbe89b6-ca06-47e2-b081-a760b8c04396\",\"aid\":\"70121:e05719eb-ac14-45b2-89e6-c09e86e1645e\",\"env\":\"prod\"}";
+WRM._unparsedData["jira.webresources:default-comment-security-level.DefaultCommentSecurityLevelHelpLink"]="{\"extraClasses\":\"default-comment-level-help\",\"title\":\"Commenting on an Issue\",\"url\":\"https://confluence.atlassian.com/display/JIRASOFTWARECLOUD/Editing+and+collaborating+on+issues#Editingandcollaboratingonissues-addcommentsCommentingonissues\",\"isLocal\":false}";
+WRM._unparsedData["jira.webresources:key-commands.shortcuts"]="[{\"moduleKey\":\"go-to-dashboard-kb-shortcut\",\"keys\":[[\"g\",\"d\"]],\"context\":\"global\",\"op\":\"goTo\",\"param\":\"/secure/Dashboard.jspa\"},{\"moduleKey\":\"greenhopper-gh-shortcut\",\"keys\":[[\"g\",\"h\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"gh.app.globalkeyboardshortcuts.goToAgile();\"},{\"moduleKey\":\"browse-project-kb-shortcut\",\"keys\":[[\"g\",\"p\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"var elem = jQuery(\\\"#browse_link\\\");\\n                if (elem.length \u003e 0) {\\n                    window.location.href = elem.attr(\\\"href\\\");\\n                }\"},{\"moduleKey\":\"greenhopper-agile-shortcut\",\"keys\":[[\"g\",\"a\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"gh.app.globalkeyboardshortcuts.goToAgile();\"},{\"moduleKey\":\"issue-navigator-kb-shortcut\",\"keys\":[[\"g\",\"i\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"var elem = jQuery(\\\"#find_link\\\");\\n                if (elem.length \u003e 0) {\\n                    window.location.href = elem.attr(\\\"href\\\");\\n                }\"},{\"moduleKey\":\"admin.quicksearch.dialog.shortcut\",\"keys\":[[\"g\",\"g\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"JIRA.Shifter.show();\"},{\"moduleKey\":\"quicksearch\",\"keys\":[[\"/\"]],\"context\":\"global\",\"op\":\"moveToAndFocus\",\"param\":\"#quickSearchInput, #admin-quick-nav-field\"},{\"moduleKey\":\"create.issue\",\"keys\":[[\"c\"]],\"context\":\"global\",\"op\":\"moveToAndClick\",\"param\":\"#header .create-issue\"},{\"moduleKey\":\"shifter\",\"keys\":[[\".\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"JIRA.Shifter.show();\"},{\"moduleKey\":\"help\",\"keys\":[[\"?\"]],\"context\":\"global\",\"op\":\"click\",\"param\":\"#keyshortscuthelp\"}]";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="./Jira_files/batch.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="./Jira_files/com.atlassian.auiplugin_aui-labels.css" data-wrm-key="com.atlassian.auiplugin:aui-labels" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="./Jira_files/jira.webresources_theme-adg3.css" data-wrm-key="jira.webresources:theme-adg3" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="./Jira_files/jira.webresources_global-static.css" data-wrm-key="jira.webresources:global-static" data-wrm-batch-type="resource" media="all">
+<script type="text/javascript" src="./Jira_files/batch.js.download" data-wrm-key="_super" data-wrm-batch-type="context" data-initially-rendered=""></script><style type="text/css"></style><style type="text/css"></style>
+<script type="text/javascript" src="./Jira_files/jira.webresources_global-static.js.download" data-wrm-key="jira.webresources:global-static" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["_wrmBatchContents"]="{\"js\":{\"_super\":[\"jira.webresources:es6-promise\",\"jira.webresources:promise-polyfill\",\"jira.webresources:usertiming-polyfill\",\"jira.webresources:almond\",\"jira.webresources:almond-analytics\",\"com.atlassian.auiplugin:aui-reset\",\"com.atlassian.auiplugin:aui-page-typography\",\"com.atlassian.auiplugin:aui-avatars\",\"com.atlassian.auiplugin:aui-page-layout\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:data\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path\",\"com.atlassian.auiplugin:ajs-contextpath\",\"com.atlassian.plugins.jquery:jquery-1.7.2\",\"com.atlassian.plugins.jquery:jquery\",\"com.atlassian.auiplugin:jquery-lib\",\"com.atlassian.auiplugin:jquery-compatibility\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-console\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-jquery\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-create-element\",\"com.atlassian.auiplugin:internal-object-assign-4.0.1-index\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-globalize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-deprecation\",\"com.atlassian.auiplugin:aui-deprecation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-custom-event\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-constants\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-version\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-globals\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-data\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-mutation-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-utils\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-registry\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-lifecycle\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-fix-ie-innerhtml\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-document-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-skate\",\"com.atlassian.auiplugin:internal-tether-0.6.5-tether\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-version\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-prevent-default\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-stop-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-index-of\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-contains\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-include\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-toggle-class-name\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-current\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-clipped\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-params\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-populate-parameters\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-log\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-to-init\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-firebug\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-clone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-alphanum\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-on-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unbind-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-filter-by-search\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-debounce\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unique-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-add-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-forms\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-setup\",\"com.atlassian.auiplugin:deprecated-legacy-ajs-file\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-format\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-animation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-blanket\",\"com.atlassian.auiplugin:aui-core\",\"com.atlassian.auiplugin:internal-basic-css\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-plugins-jquery-aop\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-drop-down\",\"com.atlassian.auiplugin:dropdown\",\"com.atlassian.auiplugin:icons\",\"com.atlassian.auiplugin:table\",\"com.atlassian.auiplugin:internal-form-css\",\"com.atlassian.auiplugin:internal-message-css\",\"com.atlassian.auiplugin:ajs-gadgets-base\",\"com.atlassian.auiplugin:toolbar\",\"com.atlassian.auiplugin:aui-buttons\",\"com.atlassian.auiplugin:aui-toolbar2\",\"com.atlassian.soy.soy-template-plugin:soy-deps\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-widget\",\"com.atlassian.auiplugin:internal-aui-widget\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-i18n-aui\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-i18n\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-skate\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-navigation\",\"com.atlassian.auiplugin:aui-navigation\",\"com.atlassian.auiplugin:aui-experimental-iconfont\",\"com.atlassian.auiplugin:aui-header-unresponsive\",\"com.atlassian.auiplugin:internal-skatejs-template-html-0.0.0-dist-template-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-header-create-header\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-header\",\"com.atlassian.auiplugin:aui-header\",\"com.atlassian.auiplugin:aui-page-header\",\"com.atlassian.auiplugin:aui-page-suite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-key-code\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer\",\"com.atlassian.auiplugin:aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer-manager\",\"com.atlassian.auiplugin:keycode\",\"com.atlassian.auiplugin:aui-layer-manager\",\"com.atlassian.auiplugin:layer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-alignment\",\"com.atlassian.auiplugin:aui-alignment\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-browser\",\"com.atlassian.auiplugin:internal-aui-browser\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-state\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dropdown2\",\"com.atlassian.auiplugin:aui-dropdown2\",\"com.atlassian.auiplugin:internal-fancy-file-input-2.0.1-dist-fancy-file-input\",\"com.atlassian.auiplugin:internal-src-js-aui-fancy-file-input\",\"com.atlassian.auiplugin:fancy-file-input\",\"com.atlassian.auiplugin:hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dialog\",\"com.atlassian.auiplugin:dialog\",\"com.atlassian.auiplugin:internal-css.escape-1.5.0-css-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog\",\"com.atlassian.auiplugin:internal-inline-dialog-common\",\"com.atlassian.auiplugin:inline-dialog\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-template\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-messages\",\"com.atlassian.auiplugin:message\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tabs\",\"com.atlassian.auiplugin:tabs\",\"com.atlassian.auiplugin:jquery-ui-core-1.8.24-patched\",\"com.atlassian.auiplugin:jquery-ui-core\",\"com.atlassian.auiplugin:internal-jquery-ui-partial\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-moveto\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-underscorejs-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-when-i-type\",\"com.atlassian.auiplugin:internal-keyboardshortcuts\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-cookie\",\"com.atlassian.auiplugin:cookie\",\"com.atlassian.auiplugin:template\",\"com.atlassian.auiplugin:event\",\"com.atlassian.auiplugin:internal-ajs-no-context-path\",\"com.atlassian.auiplugin:ajs\",\"com.atlassian.auiplugin:jquery-ui\",\"com.atlassian.plugin.jslibs:jquery.textoverflow-0.7.4\",\"com.atlassian.plugin.jslibs:jquery.pjax-2011.07.10\",\"com.atlassian.plugin.jslibs:jquery.lazyload-1.8.0\",\"com.atlassian.plugin.jslibs:jquery.flot-0.7\",\"com.atlassian.plugin.jslibs:jquery.effects-1.8rc3\",\"com.atlassian.plugin.jslibs:jquery.dragtable-2.0.4\",\"com.atlassian.plugin.jslibs:jquery.serializeobject-0.2\",\"com.atlassian.plugin.jslibs:jquery.scrollintoview-1.8\",\"jira.webresources:jquery\",\"jira.webresources:aui-core-amd-shim\",\"com.atlassian.auiplugin:aui-badge\",\"com.atlassian.auiplugin:aui-lozenge\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-spin-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-spin\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.auiplugin:aui-experimental-spinner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-amdify\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-flag\",\"com.atlassian.auiplugin:aui-flag\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:curl\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:require-handler-v2\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:web-resource-manager\",\"com.atlassian.plugin.jslibs:skate-0.12.6\",\"jira.webresources:skate\",\"jira.webresources:icons\",\"jira.webresources:jira-logger\",\"jira.webresources:deprecator\",\"jira.webresources:legacy-namespacing\",\"com.atlassian.auiplugin:ajs-underscorejs\",\"jira.webresources:ajs-underscorejs-amd-shim\",\"jira.webresources:jira-metadata\",\"jira.webresources:aui-extensions\",\"jira.webresources:feature-flags\",\"jira.webresources:jira-events\",\"jira.webresources:jira-formatter\",\"jira.webresources:browser-properties\",\"jira.webresources:top-same-origin-window\",\"jira.webresources:util-lite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-backbone-backbone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-backbone\",\"com.atlassian.auiplugin:ajs-backbone\",\"jira.webresources:ajs-backbone-amd-shim\",\"jira.webresources:number-formatter\",\"jira.webresources:util\",\"jira.webresources:content-retrievers\",\"jira.webresources:list-styles\",\"jira.webresources:inline-layer\",\"jira.webresources:list\",\"jira.webresources:dropdown\",\"jira.webresources:issue-table-adg3\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tipsy\",\"com.atlassian.auiplugin:aui-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tooltip\",\"com.atlassian.auiplugin:aui-tooltips\",\"com.atlassian.auiplugin:aui-experimental-tooltips\",\"com.atlassian.plugins.issue-status-plugin:issue-status-resources\",\"jira.webresources:issue-statuses\",\"jira.webresources:issue-table\",\"jira.webresources:select-model\",\"jira.webresources:general-configuration\",\"com.atlassian.auiplugin:aui-experimental-soy-templates\",\"jira.webresources:js-soy-templates\",\"jira.webresources:page-loading-indicator\",\"jira.webresources:messages\",\"jira.webresources:jira-dialog-core\",\"com.atlassian.jira.jira-issue-nav-plugin:issues-api\",\"com.atlassian.jira.jira-issue-nav-plugin:issuenav-legacy\",\"jira.webresources:jira-issuenavigator\",\"jira.webresources:jira-dialog-config\",\"jira.webresources:set-focus\",\"jira.webresources:select-pickers\",\"jira.webresources:jira-analytics-amd\",\"jira.webresources:trigger-custom-event\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client-library\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-events-transformers\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:shifter\",\"com.atlassian.jira.jira-npmbridge-plugin:atlassian-spa-iframe-amd\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\",\"com.atlassian.jira.jira-atlaskit-plugin:forge\",\"com.atlassian.jira.jira-atlaskit-plugin:container-api\",\"jira.webresources:inline-attach\",\"jira.webresources:dialogs\",\"jira.webresources:default-comment-security-level\",\"jira.webresources:dropdown-select\",\"jira.webresources:user-management\",\"jira.webresources:mentions-base\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-progressive-data-set\",\"com.atlassian.auiplugin:aui-experimental-data-handlers\",\"jira.webresources:data-sets\",\"jira.webresources:mentions-feature\",\"jira.webresources:mentions\",\"jira.webresources:jira-edition\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-banner\",\"com.atlassian.auiplugin:aui-banner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-trigger\",\"com.atlassian.auiplugin:aui-trigger\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-attributes\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-enforcer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog2\",\"com.atlassian.auiplugin:aui-inline-dialog2\",\"jira.webresources:keyboard-shortcut-toggle\",\"jira.webresources:assignee-picker\",\"jira.webresources:jira-global\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"jira.webresources:superbatch-default\",\"_context:_super\"]},\"css\":{\"_super\":[\"jira.webresources:es6-promise\",\"jira.webresources:promise-polyfill\",\"jira.webresources:usertiming-polyfill\",\"jira.webresources:almond\",\"jira.webresources:almond-analytics\",\"com.atlassian.auiplugin:aui-reset\",\"com.atlassian.auiplugin:aui-page-typography\",\"com.atlassian.auiplugin:aui-avatars\",\"com.atlassian.auiplugin:aui-page-layout\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:data\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path\",\"com.atlassian.auiplugin:ajs-contextpath\",\"com.atlassian.plugins.jquery:jquery-1.7.2\",\"com.atlassian.plugins.jquery:jquery\",\"com.atlassian.auiplugin:jquery-lib\",\"com.atlassian.auiplugin:jquery-compatibility\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-console\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-jquery\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-create-element\",\"com.atlassian.auiplugin:internal-object-assign-4.0.1-index\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-globalize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-deprecation\",\"com.atlassian.auiplugin:aui-deprecation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-custom-event\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-constants\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-version\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-globals\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-data\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-mutation-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-utils\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-registry\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-lifecycle\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-fix-ie-innerhtml\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-document-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-skate\",\"com.atlassian.auiplugin:internal-tether-0.6.5-tether\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-version\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-prevent-default\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-stop-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-index-of\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-contains\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-include\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-toggle-class-name\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-current\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-clipped\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-params\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-populate-parameters\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-log\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-to-init\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-firebug\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-clone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-alphanum\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-on-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unbind-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-filter-by-search\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-debounce\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unique-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-add-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-forms\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-setup\",\"com.atlassian.auiplugin:deprecated-legacy-ajs-file\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-format\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-animation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-blanket\",\"com.atlassian.auiplugin:aui-core\",\"com.atlassian.auiplugin:internal-basic-css\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-plugins-jquery-aop\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-drop-down\",\"com.atlassian.auiplugin:dropdown\",\"com.atlassian.auiplugin:icons\",\"com.atlassian.auiplugin:table\",\"com.atlassian.auiplugin:internal-form-css\",\"com.atlassian.auiplugin:internal-message-css\",\"com.atlassian.auiplugin:ajs-gadgets-base\",\"com.atlassian.auiplugin:toolbar\",\"com.atlassian.auiplugin:aui-buttons\",\"com.atlassian.auiplugin:aui-toolbar2\",\"com.atlassian.soy.soy-template-plugin:soy-deps\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-widget\",\"com.atlassian.auiplugin:internal-aui-widget\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-i18n-aui\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-i18n\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-skate\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-navigation\",\"com.atlassian.auiplugin:aui-navigation\",\"com.atlassian.auiplugin:aui-experimental-iconfont\",\"com.atlassian.auiplugin:aui-header-unresponsive\",\"com.atlassian.auiplugin:internal-skatejs-template-html-0.0.0-dist-template-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-header-create-header\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-header\",\"com.atlassian.auiplugin:aui-header\",\"com.atlassian.auiplugin:aui-page-header\",\"com.atlassian.auiplugin:aui-page-suite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-key-code\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer\",\"com.atlassian.auiplugin:aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer-manager\",\"com.atlassian.auiplugin:keycode\",\"com.atlassian.auiplugin:aui-layer-manager\",\"com.atlassian.auiplugin:layer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-alignment\",\"com.atlassian.auiplugin:aui-alignment\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-browser\",\"com.atlassian.auiplugin:internal-aui-browser\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-state\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dropdown2\",\"com.atlassian.auiplugin:aui-dropdown2\",\"com.atlassian.auiplugin:internal-fancy-file-input-2.0.1-dist-fancy-file-input\",\"com.atlassian.auiplugin:internal-src-js-aui-fancy-file-input\",\"com.atlassian.auiplugin:fancy-file-input\",\"com.atlassian.auiplugin:hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dialog\",\"com.atlassian.auiplugin:dialog\",\"com.atlassian.auiplugin:internal-css.escape-1.5.0-css-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog\",\"com.atlassian.auiplugin:internal-inline-dialog-common\",\"com.atlassian.auiplugin:inline-dialog\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-template\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-messages\",\"com.atlassian.auiplugin:message\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tabs\",\"com.atlassian.auiplugin:tabs\",\"com.atlassian.auiplugin:jquery-ui-core-1.8.24-patched\",\"com.atlassian.auiplugin:jquery-ui-core\",\"com.atlassian.auiplugin:internal-jquery-ui-partial\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-moveto\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-underscorejs-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-when-i-type\",\"com.atlassian.auiplugin:internal-keyboardshortcuts\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-cookie\",\"com.atlassian.auiplugin:cookie\",\"com.atlassian.auiplugin:template\",\"com.atlassian.auiplugin:event\",\"com.atlassian.auiplugin:internal-ajs-no-context-path\",\"com.atlassian.auiplugin:ajs\",\"com.atlassian.auiplugin:jquery-ui\",\"com.atlassian.plugin.jslibs:jquery.textoverflow-0.7.4\",\"com.atlassian.plugin.jslibs:jquery.pjax-2011.07.10\",\"com.atlassian.plugin.jslibs:jquery.lazyload-1.8.0\",\"com.atlassian.plugin.jslibs:jquery.flot-0.7\",\"com.atlassian.plugin.jslibs:jquery.effects-1.8rc3\",\"com.atlassian.plugin.jslibs:jquery.dragtable-2.0.4\",\"com.atlassian.plugin.jslibs:jquery.serializeobject-0.2\",\"com.atlassian.plugin.jslibs:jquery.scrollintoview-1.8\",\"jira.webresources:jquery\",\"jira.webresources:aui-core-amd-shim\",\"com.atlassian.auiplugin:aui-badge\",\"com.atlassian.auiplugin:aui-lozenge\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-spin-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-spin\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.auiplugin:aui-experimental-spinner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-amdify\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-flag\",\"com.atlassian.auiplugin:aui-flag\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:curl\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:require-handler-v2\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:web-resource-manager\",\"com.atlassian.plugin.jslibs:skate-0.12.6\",\"jira.webresources:skate\",\"jira.webresources:icons\",\"jira.webresources:jira-logger\",\"jira.webresources:deprecator\",\"jira.webresources:legacy-namespacing\",\"com.atlassian.auiplugin:ajs-underscorejs\",\"jira.webresources:ajs-underscorejs-amd-shim\",\"jira.webresources:jira-metadata\",\"jira.webresources:aui-extensions\",\"jira.webresources:feature-flags\",\"jira.webresources:jira-events\",\"jira.webresources:jira-formatter\",\"jira.webresources:browser-properties\",\"jira.webresources:top-same-origin-window\",\"jira.webresources:util-lite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-backbone-backbone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-backbone\",\"com.atlassian.auiplugin:ajs-backbone\",\"jira.webresources:ajs-backbone-amd-shim\",\"jira.webresources:number-formatter\",\"jira.webresources:util\",\"jira.webresources:content-retrievers\",\"jira.webresources:list-styles\",\"jira.webresources:inline-layer\",\"jira.webresources:list\",\"jira.webresources:dropdown\",\"jira.webresources:issue-table-adg3\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tipsy\",\"com.atlassian.auiplugin:aui-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tooltip\",\"com.atlassian.auiplugin:aui-tooltips\",\"com.atlassian.auiplugin:aui-experimental-tooltips\",\"com.atlassian.plugins.issue-status-plugin:issue-status-resources\",\"jira.webresources:issue-statuses\",\"jira.webresources:issue-table\",\"jira.webresources:select-model\",\"jira.webresources:general-configuration\",\"com.atlassian.auiplugin:aui-experimental-soy-templates\",\"jira.webresources:js-soy-templates\",\"jira.webresources:page-loading-indicator\",\"jira.webresources:messages\",\"jira.webresources:jira-dialog-core\",\"com.atlassian.jira.jira-issue-nav-plugin:issues-api\",\"com.atlassian.jira.jira-issue-nav-plugin:issuenav-legacy\",\"jira.webresources:jira-issuenavigator\",\"jira.webresources:jira-dialog-config\",\"jira.webresources:set-focus\",\"jira.webresources:select-pickers\",\"jira.webresources:jira-analytics-amd\",\"jira.webresources:trigger-custom-event\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client-library\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-events-transformers\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:shifter\",\"com.atlassian.jira.jira-npmbridge-plugin:atlassian-spa-iframe-amd\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\",\"com.atlassian.jira.jira-atlaskit-plugin:forge\",\"com.atlassian.jira.jira-atlaskit-plugin:container-api\",\"jira.webresources:inline-attach\",\"jira.webresources:dialogs\",\"jira.webresources:default-comment-security-level\",\"jira.webresources:dropdown-select\",\"jira.webresources:user-management\",\"jira.webresources:mentions-base\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-progressive-data-set\",\"com.atlassian.auiplugin:aui-experimental-data-handlers\",\"jira.webresources:data-sets\",\"jira.webresources:mentions-feature\",\"jira.webresources:mentions\",\"jira.webresources:jira-edition\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-banner\",\"com.atlassian.auiplugin:aui-banner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-trigger\",\"com.atlassian.auiplugin:aui-trigger\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-attributes\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-enforcer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog2\",\"com.atlassian.auiplugin:aui-inline-dialog2\",\"jira.webresources:keyboard-shortcut-toggle\",\"jira.webresources:assignee-picker\",\"jira.webresources:jira-global\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"jira.webresources:superbatch-default\",\"_context:_super\"]}}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://maruska-tim12.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+<script type="text/javascript" charset="utf-8" src="./Jira_files/batch.js(1).download"></script><script type="text/javascript" charset="utf-8" src="./Jira_files/batch.js(2).download"></script></head>
+<body data-aui-version="6.0.5">
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-126]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-126">deploy webstranky</a>
+            <span class="subText">
+               Created: 02/Nov/22                   &nbsp;Updated: 07/Nov/22
+
+                                                    &nbsp;Resolved: 02/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="607edc6e95673300699916e4" id="word_reporter_607edc6e95673300699916e4" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=607edc6e95673300699916e4">
+                    oliver leontiev
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="607edc6e95673300699916e4" id="word_assignee_607edc6e95673300699916e4" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=607edc6e95673300699916e4">
+                    oliver leontiev
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10161-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10161-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10161-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10161-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wf:9
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-125]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-125">file and folder structure refaktoring</a>
+            <span class="subText">
+               Created: 02/Nov/22                   &nbsp;Updated: 07/Nov/22
+
+                                                    &nbsp;Resolved: 03/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="607edc6e95673300699916e4" id="word_reporter_607edc6e95673300699916e4" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=607edc6e95673300699916e4">
+                    oliver leontiev
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="607edc6e95673300699916e4" id="word_assignee_607edc6e95673300699916e4" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=607edc6e95673300699916e4">
+                    oliver leontiev
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10160-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10160-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10160-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10160-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wf:i
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-124]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-124">Layouty pre jednotlive role</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 14/Nov/22
+
+                                                    &nbsp;Resolved: 14/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="62177993ba649b006aad7a68" id="word_assignee_62177993ba649b006aad7a68" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=62177993ba649b006aad7a68">
+                    Lea Hianiková
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10159-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10159-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10159-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10159-value" class="value" bgcolor="#ffffff" width="80%">      0|i000yf:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-120]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-120">Rozhranie na vytváranie úloh</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 13/Nov/22
+
+                                                    &nbsp;Resolved: 12/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="6158d0cbd9820f00708c7420" id="word_assignee_6158d0cbd9820f00708c7420" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=6158d0cbd9820f00708c7420">
+                    Katarína Hutirová
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10155-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10155-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10155-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10155-value" class="value" bgcolor="#ffffff" width="80%">      0|i000uh:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-119]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-119">Refaktor editor obrazovky a panelov</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 05/Nov/22
+
+                                                    &nbsp;Resolved: 04/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_assignee_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10154-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10154-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10154-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10154-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wg:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-118]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-118">API, modely + kompilacia/tasky FE refaktoring</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 13/Nov/22
+
+                                                    &nbsp;Resolved: 13/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_assignee_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10153-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10153-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10153-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10153-value" class="value" bgcolor="#ffffff" width="80%">      0|i000ur:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-117]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-117">Refaktoring prihlasovania (na zaklade BE)</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 07/Nov/22
+
+                                                    &nbsp;Resolved: 07/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="62177993ba649b006aad7a68" id="word_assignee_62177993ba649b006aad7a68" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=62177993ba649b006aad7a68">
+                    Lea Hianiková
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10152-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10152-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10152-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10152-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wv:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-116]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-116">Rozbehanie BE na localhoste</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 04/Nov/22
+
+                                                    &nbsp;Resolved: 04/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_assignee_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10151-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+<tbody><tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br>
+                </td>
+                <td>
+                    <b>Summary</b><br>
+                </td>
+                <td>
+                    <b>Type</b><br>
+                </td>
+                <td>
+                    <b>Status</b><br>
+                </td>
+                <td>
+                    <b>Assignee</b><br>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-121">TUR-121</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-121">Rozbehanie BE</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Matúš Krajčovič  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-122">TUR-122</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-122">Rozbehanie BE</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Katarína Hutirová  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-123">TUR-123</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-123">Rozbehanie BE</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Lea Hianiková  &nbsp;
+                                            </td>
+                </tr>
+                    </tbody></table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10151-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10151-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10151-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wn:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-115]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-115">Endpoint dokumentacia (swagger)</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 14/Nov/22
+
+                                                    &nbsp;Resolved: 14/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10150-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10150-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10150-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10150-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wf:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-114]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-114">Task endpoint - nacitanie listu taskov</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 07/Nov/22
+
+                                                    &nbsp;Resolved: 07/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="607edc6e95673300699916e4" id="word_assignee_607edc6e95673300699916e4" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=607edc6e95673300699916e4">
+                    oliver leontiev
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10149-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10149-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10149-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10149-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wf:2
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-113]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-113">Task endpoint - nacitanie detailu tasku</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 07/Nov/22
+
+                                                    &nbsp;Resolved: 07/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="607edc6e95673300699916e4" id="word_assignee_607edc6e95673300699916e4" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=607edc6e95673300699916e4">
+                    oliver leontiev
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10148-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10148-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10148-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10148-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wf:4
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-112]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-112">Projekt endpoint - zbehnutie programu</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 13/Nov/22
+
+                                                    &nbsp;Resolved: 13/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="611218e8eb7aef0069473306" id="word_assignee_611218e8eb7aef0069473306" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=611218e8eb7aef0069473306">
+                    Andrii Holubov
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10147-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10147-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10147-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10147-value" class="value" bgcolor="#ffffff" width="80%">      0|i000vr:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-111]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-111">Projekt endpoint - nacitanie a ulozenie</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 10/Nov/22
+
+                                                    &nbsp;Resolved: 10/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="611218e8eb7aef0069473306" id="word_assignee_611218e8eb7aef0069473306" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=611218e8eb7aef0069473306">
+                    Andrii Holubov
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10146-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10146-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10146-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10146-value" class="value" bgcolor="#ffffff" width="80%">      0|i000vj:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-110]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-110">Kompilácia C súboru</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 13/Nov/22
+
+                                                    &nbsp;Resolved: 13/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="611218e8eb7aef0069473306" id="word_assignee_611218e8eb7aef0069473306" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=611218e8eb7aef0069473306">
+                    Andrii Holubov
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10145-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10145-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10145-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10145-value" class="value" bgcolor="#ffffff" width="80%">      0|i000vb:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-109]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-109">Refaktor autentifikácie</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 07/Nov/22
+
+                                                    &nbsp;Resolved: 02/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="605722ac8efc9b00701d4782" id="word_assignee_605722ac8efc9b00701d4782" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=605722ac8efc9b00701d4782">
+                    Anetta Langová
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10144-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10144-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10144-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10144-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wh:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Uprava auth mechanizmu (tokeny) a doplnenie logovania</p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-108]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-108">DevOps github actions setup</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 15/Nov/22
+
+                                                    &nbsp;Resolved: 15/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:30e336cc-3b73-4290-bb65-596aa85626ca" id="word_assignee_70121:30e336cc-3b73-4290-bb65-596aa85626ca" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A30e336cc-3b73-4290-bb65-596aa85626ca">
+                    Michal Kuklovsky
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10143-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10143-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10143-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10143-value" class="value" bgcolor="#ffffff" width="80%">      0|i000uc:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-107]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-107">Azure/iná databáza - setup</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 02/Nov/22
+
+                                                    &nbsp;Resolved: 02/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="611218e8eb7aef0069473306" id="word_assignee_611218e8eb7aef0069473306" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=611218e8eb7aef0069473306">
+                    Andrii Holubov
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10142-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tbody><tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10142-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10142-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10142-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wj:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-106]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-106">Napojenie autentifikacie na databazu</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 14/Nov/22
+
+                                                    &nbsp;Resolved: 13/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="605722ac8efc9b00701d4782" id="word_assignee_605722ac8efc9b00701d4782" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=605722ac8efc9b00701d4782">
+                    Anetta Langová
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10141-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+<tbody><tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br>
+                </td>
+                <td>
+                    <b>Summary</b><br>
+                </td>
+                <td>
+                    <b>Type</b><br>
+                </td>
+                <td>
+                    <b>Status</b><br>
+                </td>
+                <td>
+                    <b>Assignee</b><br>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-127">TUR-127</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-127">Vytvorenie modelu User</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Anetta Langová  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-128">TUR-128</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-128">Zmena overenia prihlasenia</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Anetta Langová  &nbsp;
+                                            </td>
+                </tr>
+                    </tbody></table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10141-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10141-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10141-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wi:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TUR-102]&nbsp;<a href="https://maruska-tim12.atlassian.net/browse/TUR-102">Dokumentacia sprintu</a>
+            <span class="subText">
+               Created: 01/Nov/22                   &nbsp;Updated: 11/Nov/22
+
+                                                    &nbsp;Resolved: 11/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://maruska-tim12.atlassian.net/secure/BrowseProject.jspa?id=10005">Turing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_reporter_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" id="word_assignee_70121:e05719eb-ac14-45b2-89e6-c09e86e1645e" href="https://maruska-tim12.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae05719eb-ac14-45b2-89e6-c09e86e1645e">
+                    Matúš Krajčovič
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10137-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+<tbody><tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br>
+                </td>
+                <td>
+                    <b>Summary</b><br>
+                </td>
+                <td>
+                    <b>Type</b><br>
+                </td>
+                <td>
+                    <b>Status</b><br>
+                </td>
+                <td>
+                    <b>Assignee</b><br>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-103">TUR-103</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-103">Zapisnica 7 tyzden</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Matúš Krajčovič  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-104">TUR-104</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-104">Zapisnica 8 tyzden</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Matúš Krajčovič  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-105">TUR-105</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://maruska-tim12.atlassian.net/browse/TUR-105">Retrospektiva 2 sprint</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Done
+                    </td>
+                    <td>
+                                                     Matúš Krajčovič  &nbsp;
+                                            </td>
+                </tr>
+                    </tbody></table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10137-value" class="value" bgcolor="#ffffff" width="80%">TUR Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10137-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10137-value" class="value" bgcolor="#ffffff" width="80%">      0|i000wz:
+  </td>
+            </tr>
+            </tbody></table>
+
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>Generated at Tue Nov 15 15:07:41 UTC 2022 by Matúš Krajčovič using Jira 1001.0.0-SNAPSHOT#100210-sha1:28a36363a81be3fec088cc03de57ea0d3b868a26.
+
+
+</body></html>
