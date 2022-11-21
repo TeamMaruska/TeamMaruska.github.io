@@ -244,3 +244,26 @@ footer p {
 #documents ul.methods {
     display: block;
 }
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2a2a2a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(78, 78, 78);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(134, 134, 134);
+}
