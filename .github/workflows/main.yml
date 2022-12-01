@@ -15,6 +15,6 @@ jobs:
         key: ${{ secrets.KEY }}
         port: 22
         script: |
-          cd /var/www/TeamMaruska.github.io/
+          cd /var/www/TeamMaruska.github.io/web
           sudo git pull
           sudo systemctl restart nginx
