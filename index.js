@@ -5,11 +5,11 @@ window.onload = () => {
   //blink(title, 2000)
   let teamMembers = ['lukas','oliver', 'matus', 'katka', 'anett', 'lea', 'andrii', 'michal'];
   teamMembers.forEach(name => {
-    fetch(`/ascii_obrazky/${name}.txt`).then(res => res.text()).then(data => {
+    fetch(`ascii_obrazky/${name}.txt`).then(res => res.text()).then(data => {
       document.querySelector(`#img-${name}`).innerHTML = data;
     });
   });
-  fetch(`/ascii_obrazky/tim.txt`).then(res => res.text()).then(data => {
+  fetch(`ascii_obrazky/tim.txt`).then(res => res.text()).then(data => {
     document.querySelector(`#img-tim`).innerHTML = data;
   });
 }
