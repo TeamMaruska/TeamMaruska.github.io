@@ -74,6 +74,9 @@ li {
 section {
     margin-bottom: 60px;
 }
+#documents section {
+    margin-bottom: 100px;
+}
 a {
     display: inline-block;
     font-weight: 600;
@@ -96,6 +99,7 @@ a:hover {
 }
 main > section {
     padding-top: 120px;
+    padding-bottom: 100px;
 }
 #about #img-tim {
     font-size: 10px;
@@ -135,7 +139,7 @@ main > section {
     font-weight: 400;
     font-style: italic;
 }
-#contact {
+#documents {
     padding-bottom: 200px;
 }
 footer {
