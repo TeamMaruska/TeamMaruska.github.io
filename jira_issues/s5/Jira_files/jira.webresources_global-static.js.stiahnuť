@@ -1,0 +1,3 @@
+;
+/* module-key = 'jira.webresources:global-static', location = '/includes/jira/wikipreview/wiki-renderer.js' */
+AJS.$(function(){AJS.$(".code-bidi-warning").tooltip()});;
